@@ -1,8 +1,8 @@
 # Cureatr PyPi Packages
 
-Custom packages and forked packages. Install using `--find-links` e.g.:
+Custom packages and forked packages. Install using `--extra-index-url` e.g.:
 
-```pip install --upgrade --find-links http://cureatr.github.io/pypi/ easyecc==0.2```
+```pip install --upgrade --extra-index-url http://cureatr.github.io/pypi/ easyecc==0.2```
 
 Create a source distribution using:
 ``python setup.py sdist``

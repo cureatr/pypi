@@ -1,6 +1,6 @@
 ---
-title: Cureatr PyPi Links
+title: Cureatr PyPi Packages
 ---
-{% for file in site.static_files %}{% if file.extname == '.gz' %}
-[{{ site.baseurl }}{{ file.path }}]({{ site.baseurl }}{{ file.path }})
+{% for page in site.pages %}{% if page.tags contains 'package' %}
+[{{ page.dir }}]({{site.baseurl }}{{ page.dir }})
 {% endif %}{% endfor %}
